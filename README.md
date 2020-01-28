@@ -18,7 +18,12 @@
 
 转换后的权重可以直接用<a href="https://github.com/bojone/bert4keras">bert4keras</a>加载，也可以用Google官方的<a href="https://github.com/google-research/ALBERT">albert脚本</a>加载。
 
-（上传中...）
+|                     模型                        |           下载地址             |
+|:----------------------------------------------:|:-----------------------------:|
+|       albert_tiny_google_zh_489k.zip           |<a href="https://pan.baidu.com/s/1UsJRo4E8DRshwpF8rA3i9A">百度网盘</a>(4m4b)|
+| albert_base_google_zh_additional_36k_steps.zip |<a href="https://pan.baidu.com/s/1QSglsiOy6cLOcSBbuHaAUQ">百度网盘</a>(tc54)|
+|          albert_large_google_zh.zip            |<a href="https://pan.baidu.com/s/1YOrNYjK4oilwPLI_5e-vCw">百度网盘</a>(dq2h)|
+|        albert_xlarge_google_zh_183k.zip        |<a href="https://pan.baidu.com/s/1Ny_YZ1zh2COcEdNfNXMyAg">百度网盘</a>(x89k)|
 
 ## 交流
 
