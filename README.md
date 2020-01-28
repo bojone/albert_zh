@@ -16,6 +16,8 @@
 
 ## 权重
 
+转换后的权重可以直接用<a href="https://github.com/bojone/bert4keras">bert4keras</a>加载，也可以用Google官方的<a href="https://github.com/google-research/ALBERT">albert脚本</a>加载。
+
 （上传中...）
 
 ## 交流
