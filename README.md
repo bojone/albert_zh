@@ -6,7 +6,7 @@
 
 brightmart的项目<a href="https://github.com/brightmart/albert_zh">albert_zh</a>训练了从tiny版到xlarge版等一系列albert模型，极大地推荐了albert在中文NLP领域的普及。
 
-然而，brightmart版albert的开源时间早于Google版albert，这导致早期brightmart版albert的权重与Google版的不完全一致，换言之两者不能直接相互替换。当Google版开源之后，很多工作自然会以Google版为标准，但如果直接放弃掉之前训练好的权重未免就太可惜了。因此这里做一个转换。
+然而，brightmart版albert的开源时间早于Google版albert，这导致早期brightmart版albert的权重与Google版的不完全一致，换言之两者不能直接相互替换。当Google版开源之后，很多工作自然会以Google版为标准，但如果直接放弃掉之前训练好的权重未免就太可惜了，而全部重新训练一次成本又太大。因此这里做一个转换。
 
 ## 说明
 
