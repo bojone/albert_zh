@@ -39,7 +39,7 @@ albert_block = [
     'bert/encoder/transformer/group_0/inner_group_0/LayerNorm_1/beta',
 ]
 
-albert_xu_block = [
+albert_block_brightmart = [
     'bert/encoder/layer_shared/attention/self/query/kernel',
     'bert/encoder/layer_shared/attention/self/query/bias',
     'bert/encoder/layer_shared/attention/self/key/kernel',
@@ -82,7 +82,7 @@ with tf.Graph().as_default():
         weight = load_variable(name)
         create_variable(name, weight)
 
-    for name_1, name_2 in zip(albert_xu_block, albert_block):
+    for name_1, name_2 in zip(albert_block_brightmart, albert_block):
         weight = load_variable(name_1)
         create_variable(name_2, weight)
 
